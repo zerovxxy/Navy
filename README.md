@@ -1,6 +1,9 @@
 # Navy
 
+Alexander Cruz-Fung
 Renee Valdez
 Rajan Gaitonde
 Jake Hoffman
-Alexander Cruz-Fung
+Aaron Choi
+Meira Pressner
+
