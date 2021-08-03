@@ -54,14 +54,9 @@ h1
     background-color: #A6A2A2;
 }
 
-
-.carousel-item {
-    height: 500px;
-}
-
 .item-img {
     min-height: 300px;
-
+}
 .image-1
 {
     width:250px;
@@ -76,7 +71,6 @@ h1
 {
     width:250px;
     height:200px;
-
 }
 .carousel-caption-d-none-d-md-block {
     color: black;
