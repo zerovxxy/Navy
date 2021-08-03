@@ -1,22 +1,16 @@
-h1 {
+h1
+{
     text-align: center;
-    color: black;
-    font-size: 40;
 }
-li {
-    /*color: navy;
-    font-size: 26px;*/
-    border-style: solid;
-    border-width: 5px;
-    border-color: black;
-    background-color: yellow;
-    padding: 
-    margin;
-
+#first-column
+{
+    background-color: #E5E6E4;
 }
-body { 
-    background-color: 
-
-
-
+#second-column
+{
+    background-color: #CFD2CD;
+}
+#third-column
+{
+    background-color: #A6A2A2;
 }
