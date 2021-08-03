@@ -14,3 +14,11 @@ h1
 {
     background-color: #A6A2A2;
 }
+
+.carousel-item {
+    height: 500px;
+}
+
+.item-img {
+    min-height: 300px;
+}
