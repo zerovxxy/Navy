@@ -1,9 +1,10 @@
 h1
 {
     text-align: center;
+
 }
 #first-column
-{
+{    
     background-color: #E5E6E4;
 }
 #second-column
@@ -28,4 +29,9 @@ h1
 {
     width:250px;
     height:200px;
+}
+.logo 
+{
+    width:200px;
+    height:60px;  
 }
