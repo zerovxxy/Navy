@@ -1,3 +1,42 @@
+
+h1
+{
+    text-align: center;
+
+}
+#first-column
+{    
+    background-color: #E5E6E4;
+}
+#second-column
+{
+    background-color: #CFD2CD;
+}
+#third-column
+{
+    background-color: #A6A2A2;
+}
+.image-1
+{
+    width:250px;
+    height:200px;
+}
+.image-2
+{
+    width:250px;
+    height:200px;
+}
+.image-3
+{
+    width:250px;
+    height:200px;
+}
+.logo 
+{
+    width:200px;
+    height:60px;  
+}
+
 h1
 {
     text-align: center;
