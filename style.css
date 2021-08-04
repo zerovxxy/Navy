@@ -60,17 +60,32 @@ h1
 .image-1
 {
     width:250px;
-    height:250px;
+    height:300px;
 }
 .image-2
 {
     width:250px;
-    height: 250px;
+    height:300px;
 }
 .image-3
 {
     width:250px;
-    height:250px;
+    height:300px;
+}
+.image-4 
+{
+    width:250px;
+    height:300px;
+}
+.image-5 
+{
+    width:250px;
+    height:300px;
+}
+.image-6
+{
+    width:250px;
+    height:300px;
 }
 .carousel-caption-d-none-d-md-block {
     color: black;
@@ -79,9 +94,11 @@ h1
 .anime-title {
     position: static;
     border: 2px;
+    float:left;
 }
 
 .anime-genres {
     position: static;
     border: 2px;
+    float:right;
 }
