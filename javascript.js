@@ -1,4 +1,4 @@
-//Animes... this might not be used acctually
+//Animes... this might not be used actually
 var fantasy
 var sliceOfLife
 var comedy
