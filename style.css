@@ -200,15 +200,23 @@ h5 {
 {
     background-color: #CFD2CD;
 }
+<<<<<<< HEAD
+.Shounen
+=======
 .ShoujoAi
+>>>>>>> 6312de539ec0eac295cd3960f8a87d665965811d
 {
     display:block;
     margin-left: auto;
     margin-right:auto;
     width:300px;
+<<<<<<< HEAD
+    height:400px; 
+=======
     height:400px;
 }
 .ShoujoAi-page-body
 {
     background-color: #CFD2CD;
+>>>>>>> 6312de539ec0eac295cd3960f8a87d665965811d
 }
