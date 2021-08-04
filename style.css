@@ -82,6 +82,7 @@ h1
 }
 
 .anime-genres {
-    position: absolute;
+    position: static;
+    right: 30px;
     border: 2px;
 }
