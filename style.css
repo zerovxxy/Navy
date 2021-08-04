@@ -76,3 +76,12 @@ h1
     color: black;
 }
 
+.anime-title {
+    position: static;
+    border: 2px;
+}
+
+.anime-genres {
+    position: absolute;
+    border: 2px;
+}
