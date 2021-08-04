@@ -35,10 +35,8 @@ h1
     width:200px;
     height:60px;  
 }
-
-h1
-{
-    text-align: center;
+li {
+    font-size:20px;
 }
 #first-column
 {
@@ -200,7 +198,30 @@ h5 {
 {
     background-color: #CFD2CD;
 }
+
+.x
+{
+    right: 300px;
+
+.shoujoAi
+
+.Shounen
+
 .ShoujoAi
+
+{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:300px;
+    height:400px; 
+}
+.ShoujoAi-page-body
+{
+    background-color: #CFD2CD;
+
+}
+.adventure
 {
     display:block;
     margin-left: auto;
@@ -208,9 +229,10 @@ h5 {
     width:300px;
     height:400px;
 }
-.ShoujoAi-page-body
+.adventure-page-body
 {
     background-color: #CFD2CD;
+
 }
 .Shounen
 {
@@ -218,5 +240,5 @@ h5 {
     margin-left: auto;
     margin-right:auto;
     width:300px;
-    height:400px; 
+    height:400px;
 }
