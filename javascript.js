@@ -14,3 +14,4 @@ var pyschological = ["psycho pass, classroom of the elite, danganronpa, tower of
 var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
+var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
