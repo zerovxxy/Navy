@@ -95,9 +95,26 @@
                   </div>
                   </div>
               </div>
+
+            <div class="col-6" id="second-column">List <br>
+                <th>Anime Title</th>
+                <th>Genre</th>
+                <!-- button added here -->
+                <button onclick="myFunction()">New</button>
+                <script>
+                  function myFunction() {
+                    var x = document.createElement("INPUT");
+                    x.setAttribute("type", "text");
+                    x.setAttribute("value", "Title: | Genre: | ");
+                    document.body.appendChild(x);
+                  }
+                  </script>
+                  <!-- button ends here -->
+
             <div class="col-6" id="second-column"><h3>List</h3> <br>
                 <h5 class= "anime-title">Anime Title</h5>
                 <h5 class= "anime-genres">Genre</h5>
+
             </div>
             <div class="col-3" id="third-column"><h3>Genres</h3>
                 <ul>
