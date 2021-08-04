@@ -101,12 +101,13 @@
                 <h5>Anime Title</h5>
                 <h5>Genre</h5>
                 <!-- button added here -->
-                <button onclick="myFunction()">New</button>
+                
+                <button onclick="myFunction()">New Anime</button>
                 <script>
                   function myFunction() {
                     var x = document.createElement("INPUT");
                     x.setAttribute("type", "text");
-                    x.setAttribute("value", "Title: | Genre: | ");
+                    x.setAttribute("value", "Title:        Genre:       ");
                     document.body.appendChild(x);
                   }
                   </script>
@@ -116,7 +117,7 @@
             </div>
             <div class="col-3" id="third-column"><h3>Genres</h3>
                 <ul>
-                    <li>Action</li>
+                    <li><a href="action.html" target_blank>Action</a></li>                    
                     <li>Romance</li>
                     <li>Shounen</li>
                     <li>Shoujo ai</li>
