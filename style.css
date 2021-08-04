@@ -200,7 +200,7 @@ h5 {
 {
     background-color: #CFD2CD;
 }
-.ShoujoAi
+.shoujoAi
 {
     display:block;
     margin-left: auto;
@@ -209,6 +209,18 @@ h5 {
     height:400px;
 }
 .ShoujoAi-page-body
+{
+    background-color: #CFD2CD;
+}
+.adventure
+{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+    width:300px;
+    height:400px;
+}
+.adventure-page-body
 {
     background-color: #CFD2CD;
 }
