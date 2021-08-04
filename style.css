@@ -35,10 +35,8 @@ h1
     width:200px;
     height:60px;  
 }
-
-h1
-{
-    text-align: center;
+li {
+    font-size:20px;
 }
 #first-column
 {
