@@ -68,6 +68,14 @@
             <div class="col-6" id="second-column">List <br>
                 <th>Anime Title</th>
                 <th>Genre</th>
+                <script>
+                  function myFunction() {
+                    var x = document.createElement("INPUT");
+                    x.setAttribute("type", "text");
+                    x.setAttribute("value", "Title: | Genre: | ");
+                    document.body.appendChild(x);
+                  }
+                  </script>
             </div>
             <div class="col-3" id="third-column">Genres
                 <ul>
@@ -83,6 +91,11 @@
             </div>
             </div>
         </div>
-       
+        <p>Click the button to create a Text Field.</p>
+
+        <button onclick="myFunction()">New</button>
+        
+        
+        
     </body>
 </html>
