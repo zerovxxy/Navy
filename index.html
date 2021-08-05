@@ -108,24 +108,42 @@
                
                 <button onclick="myFunction()">New Anime</button>
 
-
+               
+                <br>
                 <script> 
-                 function myFunction() {
-                  var middleDiv = document.getElementById("second-column");
-                   var x = document.createElement("input");
-                   var y = document.createElement("input");
-
-                   x.setAttribute("type", "text");
-                   x.setAttribute("value", "Title:");
-
-                   y.setAttribute("type", "text");
-                   y.setAttribute("value", "Genre:");
-                 middleDiv.appendChild(x);
-                 middleDiv.appendChild(y);
-                  
-                 }
                 
-                </script>
+                 function myFunction() {
+                 var middleDiv = document.getElementById("second-column");
+                   var x1 = document.createElement("input");
+                   var x2 = document.createElement("input");
+                   var x3 = document.createElement("input");
+                   var y1 = document.createElement("input");
+                   var y2 = document.createElement("input");
+                   var y3 = document.createElement("input");
+
+                   x1.setAttribute("type", "text");
+                   x2.setAttribute("type", "text");
+                   x3.setAttribute("type", "text");
+                    x1.setAttribute("value", "Title:");
+                    x2.setAttribute("value", "Title:");
+                    x3.setAttribute("value", "Title:");
+
+                   y1.setAttribute("type", "text");
+                   y2.setAttribute("type", "text");
+                   y3.setAttribute("type", "text");
+                    y1.setAttribute("value", "Genre:");
+                    y2.setAttribute("value", "Genre:");
+                    y3.setAttribute("value", "Genre:");
+                     middleDiv.appendChild(x1);
+                     middleDiv.appendChild(x2);
+                     middleDiv.appendChild(x3);
+                 middleDiv.appendChild(y1);
+                 middleDiv.appendChild(y2);
+                 middleDiv.appendChild(y3);
+                 }
+
+                  </script>
+                               
                 <br>
                   <!-- button ends here -->
 
