@@ -15,6 +15,8 @@ var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, narut
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
 
+
+
 var animes = [
     {title: "Attack on Titan", category: "action", review: null, image: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null, image: "demonSlayer.jpg" },
@@ -69,4 +71,22 @@ var animes = [
     {title: "Erased", category: "Horror", review: null },
     {title: "Death Note", category: "Horror", review: null },
 ]
+fillTitles();
+function myFunction() {
+    animes.push({title: document.getElementById("title").value, category: document.getElementById("genre").value, review: document.getElementById("review").value, image: null});
+}
+function fillTitles() {
+   fillCategory("action");
+   fillCategory("romance");
 
+}
+function fillCategory(category){
+    var action = document.getElementById(category);
+    var actionObjects = animes.filter(anime => anime.category == category);
+    for (let anime of actionObjects){
+        let listItem = document.createElement("li");
+        listItem.className = "smallList";
+        listItem.textContent = anime.title;
+        action.appendChild(listItem);
+    }
+} 
