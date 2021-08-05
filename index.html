@@ -107,6 +107,16 @@
                 <!-- button added here -->
                
                 <button onclick="myFunction()">New Anime</button>
+
+                <script>
+                  function myFunction() {
+                    var middleDiv = document.getElementById("second-column");
+                    var x = document.createElement("input");
+                    x.setAttribute("type", "text");
+                    x.setAttribute("value", "Title:        Genre:       ");
+                   middleDiv.appendChild(x);
+                  }
+
                 <script> 
                  function myFunction() {
                   var middleDiv = document.getElementById("second-column");
