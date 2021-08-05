@@ -27,4 +27,7 @@ var animes = [
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
 ]
+var animes = [
+    {title: , category:"shounen", review: null },
+]
 
