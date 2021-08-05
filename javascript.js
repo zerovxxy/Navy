@@ -42,5 +42,8 @@ var animes = [
     {title: "Free", category: "sports", review: null },
     {title: "Stars align", category: "sports", review: null },
     {title: "Re-Main", category: "sports", review: null },
-
+    {title: "Promised Neverland", category: "Horror", review: null },
+    {title: "Blood-C", category: "Horror", review: null },
+    {title: "Erased", category: "Horror", review: null },
+    {title: "Death Note", category: "Horror", review: null },
 ]
