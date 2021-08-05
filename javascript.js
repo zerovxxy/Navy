@@ -8,9 +8,9 @@ var scifi
 // arrays
 var action = ["attack on titan, demon slayer, hunter x hunter, naruto, naruto shippuden, blue exorcist, dragonball, Familiar of zero, sao, yea im a spider so what"];
 var romance = ["horimiya, fruits basket, love is war, maid-sama, toradora, kimi ni todoke, orange, your name, a silent voice, my teen romantic comedy SNAFU"];
-var shoujoAi = ["high rise , image: ".jpg"invasion,angel beats, citrus"];
+var shoujoAi = ["high rise ,invasion,angel beats, citrus"];
 var Shounen = ["naruto, naruto shippuden, hunter x hunter, code geass, bleach, black clover, jojos bizarre adventure, kill la kill,, image: soul eater, fairy tale"];
-var pyschological = ["psycho pas, image:".jpg"s, classroom of the elite, danganronpa, tower of god, wonder egg priority"];
+var pyschological = ["psycho pas,, classroom of the elite, danganronpa, tower of god, wonder egg priority"];
 var adventure = [" gintama, , image:hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
@@ -19,7 +19,7 @@ var animes = [
     {title: "Attack on Titan", category: "action", review: null, image: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null, image: "demonSlayer.jpg" },
     {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image:, image: "hunterXhunter.jpg" },
-    {title: "Naruto", category: "action, shounen, adventure", review: null, image:, image: "naruto.jpg" },
+    {title: "Naruto", category: "action, shounen, adventure, review: null, image:, image: "naruto.jpg" },
     {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null, image:, image: "narutoShippuden" },
     {title: "Blue Exorcist", category: "action", review: null, image: "blueExorcist.jpg" },
     {title: "Dragonball", category: "action", review: null, image: "dragonBall.jpg" },
@@ -64,15 +64,14 @@ var animes = [
     {title: "My Hero Academia", category: "adventure", review: null, image: "myHeroAcademia.jpg"},
     {title: "Bungo Stray Dogs", category: "adventure", review: null, image: "bungoStrayDog.jpg"},
 
-    {title: "Hunter x Hunter", category:"shounen", review: null },
-    {title: "COde Geass", category:"shounen", review: null },
-    {title: "Code Geass", category:"shounen", review: null },
-    {title: "Bleach", category:"shounen", review: null },
-    {title: "Black Clover", category:"shounen", review: null },
-    {title: "JoJo's Bizarre Adventure", category:"shounen", review: null },
-    {title: "Kill la Kill", category:"shounen", review: null },
-    {title: "Soul Eater", category:"shounen", review: null },
-    {title: "Fairy Tail", category:"shounen", review: null },
+    {title: "Hunter x Hunter", category:"shounen", review: null, image: "hunterXhunter.jpg" },
+    {title: "Code Geass", category:"shounen", review: null, image: "CodeGeass.jpg"} ,
+    {title: "Bleach", category:"shounen", review: null, image: "bleach.jpg" },
+    {title: "Black Clover", category:"shounen", review: null, image: "blackClover.jpg" },
+    {title: "JoJo's Bizarre Adventure", category:"shounen", review: null, image: "JoJo'sBA.jpg" },
+    {title: "Kill la Kill", category:"shounen", review: null, image: "KillLaKill.jpg" },
+    {title: "Soul Eater", category:"shounen", review: null, image: "Soul Eater" },
+    {title: "Fairy Tail", category:"shounen", review: null, image: "FairyTail.jpg" },
 
     {title: "Haikyuu", category: "sports", review: null, image:"Haikyuu.jpg" },
     {title: "Yuri On Ice", category: "sports", review: null, image:"YuriOnIce.jpg" },
