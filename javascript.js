@@ -8,29 +8,23 @@ var pyschological = ["psycho pas,, classroom of the elite, danganronpa, tower of
 var adventure = [" gintama, , image:hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
+
+
+
+
 // anime ratings
+
 var animes = [
     {title: "Attack on Titan", category: "action", review: null, image: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null, image: "demonSlayer.jpg" },
-    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image:, image: "hunterXhunter.jpg" },
-    {title: "Naruto", category: "action, shounen, adventure, review: null, image:, image: "naruto.jpg" },
+    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image: "hunterXhunter.jpg" },
+    {title: "Naruto", category: "action, shounen, adventure, review: null, image: "naruto.jpg" },
     {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null, image:, image: "narutoShippuden" },
     {title: "Blue Exorcist", category: "action", review: null, image: "blueExorcist.jpg" },
     {title: "Dragonball", category: "action", review: null, image: "dragonBall.jpg" },
     {title: "Familiar of Zero", category: "action", review: null, image: "familiarOfZero.jpg" },
     {title: "Sword Art Online", category: "action", review: null, image: "sao.jpg" },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
-
-    {title: "Horimiya", category: "romance", review: null},
-    {title: "Fruits Basket", category: "romance", review: null },
-    {title: "Love is War", category: "romance", review: null },
-    {title: "Maid-sama", category: "romance", review: null },
-    {title: "Toradora", category: "romance", review: null },
-    {title: "Kimi Ni Todoke", category: "romance", review: null },
-    {title: "Orange", category: "romance", review: null },
-    {title: "Your Name", category: "romance", review: null },
-    {title: "A Silent Voice", category: "romance", review: null },
-    {title: "My Teen Romance Comedy SNAFU",category: "romance", review: null },
 
     {title: "Horimiya", category: "romance", review: null, image: "horimiya.png" },
     {title: "Fruits Basket", category: "romance", review: null, image: "fruitsBasket.jpg" },
@@ -79,4 +73,21 @@ var animes = [
     {title: "Erased", category: "Horror", review: null, image:"erased.jpg" },
     {title: "Death Note", category: "Horror", review: null, image:"deathnote.jpg" },
 ]
+fillTitles();
 
+
+function fillTitles() {
+   fillCategory("action");
+   fillCategory("romance");
+
+}
+function fillCategory(category){
+    var action = document.getElementById(category);
+    var actionObjects = animes.filter(anime => anime.category == category);
+    for (let anime of actionObjects){
+        let listItem = document.createElement("li");
+        listItem.className = "smallList";
+        listItem.textContent = anime.title;
+        action.appendChild(listItem);
+    }
+} 
