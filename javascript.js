@@ -26,8 +26,25 @@ var animes = [
     {title: "Familiar of Zero", category: "action", review: null },
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
-]
-var animes = [
-    {title: , category:"shounen", review: null },
-]
+  
+  
+    {title: "Psycho Pass", category: "pyschological", review: null },
+    {title: "Classroom of the Elite", category: "pyschological", review: null },
+    {title: "Danganronpa", category: "pyschological", review: null },
+    {title: "Tower of God", category: "pyschological", review: null },
+    {title: "Wonder Egg Priority", category: "pyschological", review: null },
 
+    {title: "Gintama", category: "adventure", review: null },
+    {title: "Fairy Tale", category: "adventure", review: null },
+    {title: "My Hero Academia", category: "adventure", review: null },
+    {title: "Bungo Stray Dogs", category: "adventure", review: null },
+
+    {title: "Hunter x Hunter", category:"shounen", review: null },
+    {title: "COde Geass", category:"shounen", review: null },
+    {title: "Bleach", category:"shounen", review: null },
+    {title: "Black Clover", category:"shounen", review: null },
+    {title: "JoJo's Bizarre Adventure", category:"shounen", review: null },
+    {title: "Kill la Kill", category:"shounen", review: null },
+    {title: "Soul Eater", category:"shounen", review: null },
+    {title: "Fairy Tail", category:"shounen", review: null },
+    ]
