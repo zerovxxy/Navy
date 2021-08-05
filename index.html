@@ -105,10 +105,11 @@
                 <button onclick="myFunction()">New Anime</button>
                 <script>
                   function myFunction() {
-                    var x = document.createElement("INPUT");
+                    var middleDiv = document.getElementById("second-column");
+                    var x = document.createElement("input");
                     x.setAttribute("type", "text");
                     x.setAttribute("value", "Title:        Genre:       ");
-                    document.body.appendChild(x);
+                   middleDiv.appendChild(x);
                   }
                   </script>
                   <!-- button ends here -->
