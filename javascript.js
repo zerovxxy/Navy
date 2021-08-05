@@ -26,5 +26,16 @@ var animes = [
     {title: "Familiar of Zero", category: "action", review: null },
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
-]
+  
+  
+    {title: "Psycho Pass", category: "pyschological", review: null },
+    {title: "Classroom of the Elite", category: "pyschological", review: null },
+    {title: "Danganronpa", category: "pyschological", review: null },
+    {title: "Tower of God", category: "pyschological", review: null },
+    {title: "Wonder Egg Priority", category: "pyschological", review: null },
 
+    {title: "Gintama", category: "adventure", review: null },
+    {title: "Fairy Tale", category: "adventure", review: null },
+    {title: "My Hero Academia", category: "adventure", review: null },
+    {title: "Bungo Stray Dogs", category: "adventure", review: null },
+]
