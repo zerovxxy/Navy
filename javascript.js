@@ -26,19 +26,15 @@ var animes = [
     {title: "Familiar of Zero", category: "action", review: null },
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
-  
-  
     {title: "Psycho Pass", category: "pyschological", review: null },
     {title: "Classroom of the Elite", category: "pyschological", review: null },
     {title: "Danganronpa", category: "pyschological", review: null },
     {title: "Tower of God", category: "pyschological", review: null },
     {title: "Wonder Egg Priority", category: "pyschological", review: null },
-
     {title: "Gintama", category: "adventure", review: null },
     {title: "Fairy Tale", category: "adventure", review: null },
     {title: "My Hero Academia", category: "adventure", review: null },
     {title: "Bungo Stray Dogs", category: "adventure", review: null },
-
     {title: "Hunter x Hunter", category:"shounen", review: null },
     {title: "COde Geass", category:"shounen", review: null },
     {title: "Bleach", category:"shounen", review: null },
@@ -47,4 +43,15 @@ var animes = [
     {title: "Kill la Kill", category:"shounen", review: null },
     {title: "Soul Eater", category:"shounen", review: null },
     {title: "Fairy Tail", category:"shounen", review: null },
-    ]
+    {title: "Haikyuu", category: "sports", review: null },
+    {title: "Yuri On Ice", category: "sports", review: null },
+    {title: "Sk8 the Infinity", category: "sports", review: null },
+    {title: "Number 24", category: "sports", review: null },
+    {title: "Free", category: "sports", review: null },
+    {title: "Stars align", category: "sports", review: null },
+    {title: "Re-Main", category: "sports", review: null },
+    {title: "Promised Neverland", category: "Horror", review: null },
+    {title: "Blood-C", category: "Horror", review: null },
+    {title: "Erased", category: "Horror", review: null },
+    {title: "Death Note", category: "Horror", review: null },
+]
