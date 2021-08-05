@@ -12,8 +12,8 @@ var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars al
 var animes = [
     {title: "Attack on Titan", category: "action", review: null, image: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null, image: "demonSlayer.jpg" },
-    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image:, image: "hunterXhunter.jpg" },
-    {title: "Naruto", category: "action, shounen, adventure, review: null, image:, image: "naruto.jpg" },
+    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image: "hunterXhunter.jpg" },
+    {title: "Naruto", category: "action, shounen, adventure, review: null, image: "naruto.jpg" },
     {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null, image:, image: "narutoShippuden" },
     {title: "Blue Exorcist", category: "action", review: null, image: "blueExorcist.jpg" },
     {title: "Dragonball", category: "action", review: null, image: "dragonBall.jpg" },
