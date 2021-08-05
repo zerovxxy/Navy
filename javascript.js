@@ -16,7 +16,7 @@ var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
 
 var animes = [
-    {title: "Attack on Titan", category: "action", review: null },
+    {title: "Attack on Titan", category: "action", review: null, imag: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null },
     {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null },
     {title: "Naruto", category: "action, shounen, adventure", review: null },
