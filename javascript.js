@@ -8,26 +8,26 @@ var scifi
 // arrays
 var action = ["attack on titan, demon slayer, hunter x hunter, naruto, naruto shippuden, blue exorcist, dragonball, Familiar of zero, sao, yea im a spider so what"];
 var romance = ["horimiya, fruits basket, love is war, maid-sama, toradora, kimi ni todoke, orange, your name, a silent voice, my teen romantic comedy SNAFU"];
-var shoujoAi = ["high rise invasion,angel beats, citrus"];
-var Shounen = ["naruto, naruto shippuden, hunter x hunter, code geass, bleach, black clover, jojos bizarre adventure, kill la kill, soul eater, fairy tale"];
-var pyschological = ["psycho pass, classroom of the elite, danganronpa, tower of god, wonder egg priority"];
-var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
+var shoujoAi = ["high rise , image: ".jpg"invasion,angel beats, citrus"];
+var Shounen = ["naruto, naruto shippuden, hunter x hunter, code geass, bleach, black clover, jojos bizarre adventure, kill la kill,, image: soul eater, fairy tale"];
+var pyschological = ["psycho pas, image:".jpg"s, classroom of the elite, danganronpa, tower of god, wonder egg priority"];
+var adventure = [" gintama, , image:hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
 
 var animes = [
     {title: "Attack on Titan", category: "action", review: null, image: "attackOnTitan.jpg" },
     {title: "Demon Slayer", category: "action", review: null, image: "demonSlayer.jpg" },
-    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image: "hunterXhunter.jpg" },
-    {title: "Naruto", category: "action, shounen, adventure", review: null, image: "naruto.jpg" },
-    {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null, image: "narutoShippuden" },
+    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null, image:, image: "hunterXhunter.jpg" },
+    {title: "Naruto", category: "action, shounen, adventure", review: null, image:, image: "naruto.jpg" },
+    {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null, image:, image: "narutoShippuden" },
     {title: "Blue Exorcist", category: "action", review: null, image: "blueExorcist.jpg" },
     {title: "Dragonball", category: "action", review: null },
     {title: "Familiar of Zero", category: "action", review: null },
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
 
-    {title: "Horimiya", category: "romance", review: null },
+    {title: "Horimiya", category: "romance", review: null},
     {title: "Fruits Basket", category: "romance", review: null },
     {title: "Love is War", category: "romance", review: null },
     {title: "Maid-sama", category: "romance", review: null },
@@ -36,20 +36,22 @@ var animes = [
     {title: "Orange", category: "romance", review: null },
     {title: "Your Name", category: "romance", review: null },
     {title: "A Silent Voice", category: "romance", review: null },
-    {title: "My Teen Romance Comedy SNAFU", category: "romance", review: null },
+    {title: "My Teen Romance Comedy SNAFU",category: "romance", review: null },
     
-    {title: "Psycho Pass", category: "pyschological", review: null },
-    {title: "Classroom of the Elite", category: "pyschological", review: null },
-    {title: "Danganronpa", category: "pyschological", review: null },
-    {title: "Tower of God", category: "pyschological", review: null },
-    {title: "Wonder Egg Priority", category: "pyschological", review: null },
+    {title: "High Rise Invasion", category: "shoujoAi", review: null, image: "highRiseinvasion.jpg" },
+    {title: "Angel Beats", category: "shoujoAi", review: null, image: "angelBeats.jpg" },
+    {title: "Citrus", category: "shoujoAi", review: null, image: "citrus.jpg" },
 
-    {title: "Gintama", category: "adventure", review: null },
-    {title: "Fairy Tale", category: "adventure", review: null },
-    {title: "My Hero Academia", category: "adventure", review: null },
-    {title: "Bungo Stray Dogs", category: "adventure", review: null },
+    {title: "Psycho Pass", category: "pyschological", review: null, image:"pyschopass.jpg" },
+    {title: "Classroom of the Elite", category: "pyschological", review: null, image:"Classroomoftheelite.jpg" },
+    {title: "Danganronpa", category: "pyschological", review: null, image:"Dangaronpa.jpg" },
+    {title: "Tower of God", category: "pyschological", review: null, image:"towerofgod.jpg" },
+    {title: "Wonder Egg Priority", category: "pyschological", review: null, image:"wondereggpriority.jpg" },
 
-
+    {title: "Gintama", category: "adventure", review: null, image: "gintama.jpg"},
+    {title: "Fairy Tale", category: "adventure", review: null, image: "fairyTale.jpg"},
+    {title: "My Hero Academia", category: "adventure", review: null, image: "myHeroAcademia.jpg"},
+    {title: "Bungo Stray Dogs", category: "adventure", review: null, image: "bungoStrayDog.jpg"},
 
     {title: "Hunter x Hunter", category:"shounen", review: null },
     {title: "COde Geass", category:"shounen", review: null },
