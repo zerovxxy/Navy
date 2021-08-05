@@ -72,9 +72,8 @@ var animes = [
     {title: "Death Note", category: "Horror", review: null },
 ]
 fillTitles();
-function myFunction() {
-    animes.push({title: document.getElementById("title").value, category: document.getElementById("genre").value, review: document.getElementById("review").value, image: null});
-}
+
+
 function fillTitles() {
    fillCategory("action");
    fillCategory("romance");
