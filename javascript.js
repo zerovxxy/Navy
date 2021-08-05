@@ -15,16 +15,3 @@ var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, narut
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
 
-var animes = [
-    {title: "Attack on Titan", category: "action", review: null },
-    {title: "Demon Slayer", category: "action", review: null },
-    {title: "Hunter x Hunter", category: "action, Shounen, ", review: null },
-    {title: "Naruto", category: "action", review: null },
-    {title: "Nartuo Shippuden", category: "action", review: null },
-    {title: "Blue Exorcist", category: "action", review: null },
-    {title: "Dragonball", category: "action", review: null },
-    {title: "Familiar of Zero", category: "action", review: null },
-    {title: "Sword Art Online", category: "action", review: null },
-    {title: "Yea I'm a Spider so What", category: "action", review: null },
-]
-
