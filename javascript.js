@@ -14,3 +14,14 @@ var pyschological = ["psycho pass, classroom of the elite, danganronpa, tower of
 var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, naruto, naruto shippuden, bungo stray dogs"];
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
+
+{title: "Psycho Pass", category: "pyschological", review: null },
+{title: "Classroom of the Elite", category: "pyschological", review: null },
+{title: "Danganronpa", category: "pyschological", review: null },
+{title: "Tower of God", category: "pyschological", review: null },
+{title: "Wonder Egg Priority", category: "pyschological", review: null },
+
+{title: "Gintama", category: "adventure", review: null },
+{title: "Fairy Tale", category: "adventure", review: null },
+{title: "My Hero Academia", category: "adventure", review: null },
+{title: "Bungo Stray Dogs", category: "adventure", review: null },
