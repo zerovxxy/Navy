@@ -18,16 +18,26 @@ var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars al
 var animes = [
     {title: "Attack on Titan", category: "action", review: null },
     {title: "Demon Slayer", category: "action", review: null },
-    {title: "Hunter x Hunter", category: "action, Shounen, aadventure", review: null },
-    {title: "Naruto", category: "action, shounen", review: null },
-    {title: "Nartuo Shippuden", category: "action, adventure", review: null },
+    {title: "Hunter x Hunter", category: "action, Shounen, adventure", review: null },
+    {title: "Naruto", category: "action, shounen, adventure", review: null },
+    {title: "Nartuo Shippuden", category: "action, shounen, adventure", review: null },
     {title: "Blue Exorcist", category: "action", review: null },
     {title: "Dragonball", category: "action", review: null },
     {title: "Familiar of Zero", category: "action", review: null },
     {title: "Sword Art Online", category: "action", review: null },
     {title: "Yea I'm a Spider so What", category: "action", review: null },
-  
-  
+
+    {title: "Horimiya", category: "romance", review: null },
+    {title: "Fruits Basket", category: "romance", review: null },
+    {title: "Love is War", category: "romance", review: null },
+    {title: "Maid-sama", category: "romance", review: null },
+    {title: "Toradora", category: "romance", review: null },
+    {title: "Kimi Ni Todoke", category: "romance", review: null },
+    {title: "Orange", category: "romance", review: null },
+    {title: "Your Name", category: "romance", review: null },
+    {title: "A Silent Voice", category: "romance", review: null },
+    {title: "My Teen Romance Comedy SNAFU", category: "romance", review: null },
+    
     {title: "Psycho Pass", category: "pyschological", review: null },
     {title: "Classroom of the Elite", category: "pyschological", review: null },
     {title: "Danganronpa", category: "pyschological", review: null },
@@ -39,3 +49,4 @@ var animes = [
     {title: "My Hero Academia", category: "adventure", review: null },
     {title: "Bungo Stray Dogs", category: "adventure", review: null },
 ]
+
