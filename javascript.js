@@ -68,6 +68,7 @@ var animes = [
     {title: "Free", category: "sports", review: null, image:"Free!_promotional_image_1.jpg" },
     {title: "Stars align", category: "sports", review: null, image:"starsalign.jpg" },
     {title: "Re-Main", category: "sports", review: null, image:"RE-MAIN_key_visual.jpg" },
+
     {title: "Promised Neverland", category: "Horror", review: null, image:"thePromised.jpg" },
     {title: "Blood-C", category: "Horror", review: null, image:"bloodC.jpg" },
     {title: "Erased", category: "Horror", review: null, image:"erased.jpg" },
@@ -79,7 +80,12 @@ fillTitles();
 function fillTitles() {
    fillCategory("action");
    fillCategory("romance");
-
+   fillCategory("shoujoAi");
+   fillCategory("pyschological");
+   fillCategory("adventure");
+   fillCategory("shounen");
+   fillCategory("sports");
+   fillCategory("Horror");
 }
 function fillCategory(category){
     var action = document.getElementById(category);
