@@ -51,14 +51,14 @@ var animes = [
 
 
 
-    {title: "Hunter x Hunter", category:"shounen", review: null },
-    {title: "COde Geass", category:"shounen", review: null },
-    {title: "Bleach", category:"shounen", review: null },
-    {title: "Black Clover", category:"shounen", review: null },
-    {title: "JoJo's Bizarre Adventure", category:"shounen", review: null },
-    {title: "Kill la Kill", category:"shounen", review: null },
-    {title: "Soul Eater", category:"shounen", review: null },
-    {title: "Fairy Tail", category:"shounen", review: null },
+    {title: "Hunter x Hunter", category:"shounen", review: null, image: "hunterXhunter.jpg" },
+    {title: "Code Geass", category:"shounen", review: null, image: "CodeGeass.jpg" ,
+    {title: "Bleach", category:"shounen", review: null, image: "bleach.jpg" },
+    {title: "Black Clover", category:"shounen", review: null, image: "blackClover.jpg" },
+    {title: "JoJo's Bizarre Adventure", category:"shounen", review: null, image: "JoJo'sBA.jpg" },
+    {title: "Kill la Kill", category:"shounen", review: null, image: "KillLaKill.jpg" },
+    {title: "Soul Eater", category:"shounen", review: null, image: "Soul Eater" },
+    {title: "Fairy Tail", category:"shounen", review: null, image: "FairyTail.jpg" },
 
     {title: "Haikyuu", category: "sports", review: null },
     {title: "Yuri On Ice", category: "sports", review: null },
