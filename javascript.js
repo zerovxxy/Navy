@@ -15,13 +15,27 @@ var adventure = [" gintama, hunter x hunter, fairy tale, my hero academia, narut
 var horror = ["promised neverland, blood-c, erased, death note"];
 var sports = ["haikyuu, yuri on ice, sk8 the infinity, number 24, free, stars align, re-main"];
 
-{title: "Psycho Pass", category: "pyschological", review: null },
-{title: "Classroom of the Elite", category: "pyschological", review: null },
-{title: "Danganronpa", category: "pyschological", review: null },
-{title: "Tower of God", category: "pyschological", review: null },
-{title: "Wonder Egg Priority", category: "pyschological", review: null },
+var animes = [
+    {title: "Attack on Titan", category: "action", review: null },
+    {title: "Demon Slayer", category: "action", review: null },
+    {title: "Hunter x Hunter", category: "action, Shounen, ", review: null },
+    {title: "Naruto", category: "action", review: null },
+    {title: "Nartuo Shippuden", category: "action", review: null },
+    {title: "Blue Exorcist", category: "action", review: null },
+    {title: "Dragonball", category: "action", review: null },
+    {title: "Familiar of Zero", category: "action", review: null },
+    {title: "Sword Art Online", category: "action", review: null },
+    {title: "Yea I'm a Spider so What", category: "action", review: null },
+  
+  
+    {title: "Psycho Pass", category: "pyschological", review: null },
+    {title: "Classroom of the Elite", category: "pyschological", review: null },
+    {title: "Danganronpa", category: "pyschological", review: null },
+    {title: "Tower of God", category: "pyschological", review: null },
+    {title: "Wonder Egg Priority", category: "pyschological", review: null },
 
-{title: "Gintama", category: "adventure", review: null },
-{title: "Fairy Tale", category: "adventure", review: null },
-{title: "My Hero Academia", category: "adventure", review: null },
-{title: "Bungo Stray Dogs", category: "adventure", review: null },
+    {title: "Gintama", category: "adventure", review: null },
+    {title: "Fairy Tale", category: "adventure", review: null },
+    {title: "My Hero Academia", category: "adventure", review: null },
+    {title: "Bungo Stray Dogs", category: "adventure", review: null },
+]
