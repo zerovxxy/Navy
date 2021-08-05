@@ -49,8 +49,7 @@ var animes = [
     {title: "My Hero Academia", category: "adventure", review: null },
     {title: "Bungo Stray Dogs", category: "adventure", review: null },
 
-    {title: "Hunter x Hunter", category:"shounen", review: null },
-    {title: "COde Geass", category:"shounen", review: null },
+    {title: "Code Geass", category:"shounen", review: null },
     {title: "Bleach", category:"shounen", review: null },
     {title: "Black Clover", category:"shounen", review: null },
     {title: "JoJo's Bizarre Adventure", category:"shounen", review: null },
