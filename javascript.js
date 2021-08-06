@@ -83,4 +83,4 @@ function fillCategory(category){
         listItem.textContent = anime.title;
         action.appendChild(listItem);
     }
-} 
+}
